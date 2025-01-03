@@ -13,8 +13,8 @@ def main():
     # Standardkoordinaten und Zeitraum definieren
     latitude = Config.DEFAULT_LATITUDE
     longitude = Config.DEFAULT_LONGITUDE
-    start_date = "2024-12-14"
-    end_date = "2024-12-27"
+    start_date = "2024-01-01"
+    end_date = "2024-12-31"
 
     # Pfade für CSV-Dateien erstellen
     base_dir = os.path.dirname(os.path.abspath(__file__))  # Aktuelles Verzeichnis des Scripts
